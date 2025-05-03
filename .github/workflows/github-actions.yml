@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: setting up java
         run: actions/setup-java@v3
-      -name: javac test.java
+      - name: javac test.java
       - name: step1
         run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - name: step2
