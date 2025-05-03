@@ -10,7 +10,7 @@ jobs:
         with:
           distribution: 'temurin' # See 'Supported distributions' for available options
           java-version: '21'
-      - run: javac test.java
+      - run: javac Test.java
       - name: step1
         run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - name: step2
