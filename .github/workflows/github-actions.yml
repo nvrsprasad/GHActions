@@ -13,6 +13,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
       - run: javac -d . com/nandagiri/service/Test123.java
+      - run: java com.nandagiri.service.Test123
       - name: step1
         run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - name: step2
